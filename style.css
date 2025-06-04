@@ -3,18 +3,21 @@
     --cor-principal: #982c13;
     --cor-secundária: rgb(243, 200, 157);
     --cor-destaque: #e9cdd2;
+}
 
+body {
+    font-family: 'Chakra Petch', sans-serif;
 }
-body{
-    font-familiar: 'Chakra Petch', sans-serif;
-}
+
 h1, h2, h5 {
     color: var(--cor-secundária);
     font-weight: 700;
 }
-footer a{
+
+footer a {
     color: var(--cor-principal);
 }
+
 footer a:hover {
     color: var(--cor-destaque);
 } 
