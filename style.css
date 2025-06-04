@@ -1,7 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">);
 :root {
-    --cor-principal:;
-    --cor-secundária: ;
-    --cor-destaque:;
+    --cor-principal:6E972;
+    --cor-secundária:6E678 ;
+    --cor-destaque:6E345;
 
 }
+body{
+    font-familiar: 'Chakra Petch', sans-serif;
+}
+h1, h2, h5 {
+    color: var(--cor-secundária);
+    font-weight: 700;
+}
+footer a{
+    color: var(--cor-principal);
+}
+footer a:hover {
+    color: var(--cor-destaque);
+} 
